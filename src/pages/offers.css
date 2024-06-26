@@ -1,0 +1,51 @@
+.offers-page {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.offers-page header {
+    background: #fff;
+    padding: 2rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offers-page h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.offers-page .container {
+    margin-top: 2rem;
+}
+
+.offers-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.offers-page ul {
+    padding-left: 1rem;
+}
+
+.offers-page li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.offers-page .text-success {
+    color: #198754 !important;
+}
+
+.offer-list li {
+    background: #65e576;
+    border: 2px solid #101010;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+.offer-list li:hover {
+    color: white;
+    background: #101010;
+}
